@@ -12,7 +12,7 @@ const auth = async (req, res, next) => {
       console.log("decodedData", decodedData)
       next();
     } catch (err) {
-      res.json({ message: "token expired" });
+      res.json({ message: " this  token is  expired" });
     }
   } catch (error) {
     console.log(error);
