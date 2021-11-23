@@ -154,7 +154,7 @@ transporter.sendMail( mailOptions, function(error, info){
     if (error) {
       console.log(error);
     } else {
-       console.log('Email sent Successfully: ' + info.response);
+       console.log('Email sent Successfully to the user: ' + info.response);
     }
   });
     
